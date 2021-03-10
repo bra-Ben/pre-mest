@@ -1,0 +1,57 @@
+* {
+   margin: 0px;
+   padding: 0px;
+}
+
+.maincontainer {
+   display: flex;
+   height: 100vh;
+   background-color: dodgerblue;
+   background-image: url("/images/blur.jpg");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+
+   align-items: center;
+   justify-content: center;
+}
+
+.formcontainer {
+   display: flex;
+   height: 300px;
+   width: 300px;
+   background-color: red;
+   flex-direction: column;
+   border-radius: 20px;
+}
+.headerdiv {
+   display: flex;
+   background-color: gray;
+   flex: 0.2;
+}
+
+.imagediv {
+   display: flex;
+   background-color: green;
+   flex: 0.4;
+}
+
+.inputdiv {
+   display: flex;
+   background-color: yellowgreen;
+   flex: 0.2;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-around;
+}
+
+.buttondiv {
+   display: flex;
+   background-color: dodgerblue;
+   flex: 0.2;
+}
+
+.footerdiv {
+   display: flex;
+   background-color: pink;
+   flex: 0.1;
+}
